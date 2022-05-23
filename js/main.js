@@ -15,10 +15,15 @@
 const app = new Vue({
     el: "#app",
     data : {
-        todos: {
-            text: "",
-            validation: false,
-        }
+        list: ["Spesa", "Palestra", "Commercialista"],
+        addTodo: '',
     },
-    methods: {},
-})
+    methods: {
+        addTodos() {
+            if ( !this.addTodo) {
+                this.list.push(this.addTodo);
+                this.addTodo = "";
+            }
+        },
+    },
+});

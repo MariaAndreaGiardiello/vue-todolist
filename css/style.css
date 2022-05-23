@@ -21,14 +21,15 @@
     text-align: center;
 }
 
-.post-it {
+.blackboard {
     width: 1000px;
-    height: 500px;
+    height: 600px;
     background-image: url(../img/blackboard.png);
     background-repeat: no-repeat;
     margin: auto;
     background-position: center;
     background-size: contain;
+    justify-content: center;
 }
 
 body {
@@ -49,8 +50,10 @@ body {
 
 .list-text{
     color: white;
-    margin: 120px 100px;
+    margin: 100px auto;
     font-size: 35px;
+    height: 400px;
+    width: 600px;
 }
 
 /*------------------
@@ -66,4 +69,10 @@ body {
     background-color: aqua;
     border: 1px solid white;
     border-radius: 20px;
+}
+
+.calendar {
+    width: 1000px;
+    justify-content: center;
+    margin: auto;
 }
